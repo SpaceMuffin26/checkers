@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://l8ouycf31b2a"]
+
+[ext_resource type="Texture2D" uid="uid://dj7x6gpqdqfnu" path="res://Board/Cells/DarkCell/SpriteDarkCell.png" id="1_kc6cn"]
+
+[node name="DarkCell" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+texture = ExtResource("1_kc6cn")

@@ -1,0 +1,281 @@
+[gd_scene load_steps=5 format=3 uid="uid://oa8dagqwxhpq"]
+
+[ext_resource type="PackedScene" uid="uid://l8ouycf31b2a" path="res://Board/Cells/DarkCell/dark_cell.tscn" id="1_ac7j4"]
+[ext_resource type="PackedScene" uid="uid://bwk2jm8rumhhl" path="res://Board/Cells/LightCell/light_cell.tscn" id="2_uax5k"]
+[ext_resource type="PackedScene" uid="uid://cw6tsnpy65dec" path="res://Board/Pieces/BlackPiece/black_piece.tscn" id="3_k0njb"]
+[ext_resource type="PackedScene" uid="uid://0bt58qj8x210" path="res://Board/Pieces/WhitePiece/white_piece.tscn" id="4_rc54i"]
+
+[node name="PlayBoard" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(4, 4)
+anchor_mode = 0
+zoom = Vector2(10, 10)
+
+[node name="Cells" type="Node" parent="."]
+
+[node name="DarkCell" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(8, 8)
+
+[node name="DarkCell2" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(16, 16)
+
+[node name="DarkCell3" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(8, 24)
+
+[node name="DarkCell4" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(16, 32)
+
+[node name="DarkCell5" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(8, 40)
+
+[node name="DarkCell6" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(16, 48)
+
+[node name="DarkCell7" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(8, 56)
+
+[node name="DarkCell8" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(16, 64)
+
+[node name="DarkCell9" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(24, 56)
+
+[node name="DarkCell10" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(32, 64)
+
+[node name="DarkCell11" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(40, 56)
+
+[node name="DarkCell12" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(48, 64)
+
+[node name="DarkCell13" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(56, 56)
+
+[node name="DarkCell14" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(64, 64)
+
+[node name="DarkCell15" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(64, 48)
+
+[node name="DarkCell16" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(56, 40)
+
+[node name="DarkCell17" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(64, 32)
+
+[node name="DarkCell18" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(56, 24)
+
+[node name="DarkCell19" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(64, 16)
+
+[node name="DarkCell20" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(56, 8)
+
+[node name="DarkCell21" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(24, 8)
+
+[node name="DarkCell22" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(32, 16)
+
+[node name="DarkCell23" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(40, 8)
+
+[node name="DarkCell24" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(48, 16)
+
+[node name="DarkCell25" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(24, 24)
+
+[node name="DarkCell26" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(40, 24)
+
+[node name="DarkCell27" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(24, 40)
+
+[node name="DarkCell28" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(32, 48)
+
+[node name="DarkCell29" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(48, 48)
+
+[node name="DarkCell30" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(40, 40)
+
+[node name="DarkCell31" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(32, 32)
+
+[node name="DarkCell32" parent="Cells" instance=ExtResource("1_ac7j4")]
+position = Vector2(48, 32)
+
+[node name="LightCell" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(8, 64)
+
+[node name="LightCell2" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(16, 56)
+
+[node name="LightCell3" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(8, 48)
+
+[node name="LightCell4" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(16, 40)
+
+[node name="LightCell5" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(8, 32)
+
+[node name="LightCell6" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(16, 24)
+
+[node name="LightCell7" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(8, 16)
+
+[node name="LightCell8" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(16, 8)
+
+[node name="LightCell9" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(24, 16)
+
+[node name="LightCell10" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(24, 32)
+
+[node name="LightCell11" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(24, 48)
+
+[node name="LightCell12" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(24, 64)
+
+[node name="LightCell13" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(32, 56)
+
+[node name="LightCell14" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(40, 64)
+
+[node name="LightCell15" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(48, 56)
+
+[node name="LightCell16" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(56, 64)
+
+[node name="LightCell17" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(64, 56)
+
+[node name="LightCell18" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(56, 48)
+
+[node name="LightCell19" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(40, 48)
+
+[node name="LightCell20" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(32, 40)
+
+[node name="LightCell21" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(48, 40)
+
+[node name="LightCell22" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(64, 40)
+
+[node name="LightCell23" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(56, 32)
+
+[node name="LightCell24" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(40, 32)
+
+[node name="LightCell25" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(32, 24)
+
+[node name="LightCell26" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(48, 24)
+
+[node name="LightCell27" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(64, 24)
+
+[node name="LightCell28" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(40, 16)
+
+[node name="LightCell29" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(32, 8)
+
+[node name="LightCell30" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(48, 8)
+
+[node name="LightCell31" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(56, 16)
+
+[node name="LightCell32" parent="Cells" instance=ExtResource("2_uax5k")]
+position = Vector2(64, 8)
+
+[node name="Pieces" type="Node" parent="."]
+
+[node name="BlackPiece" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(16, 16)
+
+[node name="BlackPiece2" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(8, 24)
+
+[node name="BlackPiece3" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(8, 8)
+
+[node name="BlackPiece4" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(24, 24)
+
+[node name="BlackPiece5" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(40, 8)
+
+[node name="BlackPiece6" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(24, 8)
+
+[node name="BlackPiece7" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(40, 24)
+
+[node name="BlackPiece8" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(48, 16)
+
+[node name="BlackPiece9" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(32, 16)
+
+[node name="BlackPiece10" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(56, 24)
+
+[node name="BlackPiece11" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(64, 16)
+
+[node name="BlackPiece12" parent="Pieces" instance=ExtResource("3_k0njb")]
+position = Vector2(56, 8)
+
+[node name="WhitePiece" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(8, 56)
+
+[node name="WhitePiece2" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(16, 64)
+
+[node name="WhitePiece3" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(16, 48)
+
+[node name="WhitePiece4" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(24, 56)
+
+[node name="WhitePiece5" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(32, 48)
+
+[node name="WhitePiece6" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(32, 64)
+
+[node name="WhitePiece7" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(40, 56)
+
+[node name="WhitePiece8" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(48, 48)
+
+[node name="WhitePiece9" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(48, 64)
+
+[node name="WhitePiece10" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(56, 56)
+
+[node name="WhitePiece11" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(64, 64)
+
+[node name="WhitePiece12" parent="Pieces" instance=ExtResource("4_rc54i")]
+position = Vector2(64, 48)
