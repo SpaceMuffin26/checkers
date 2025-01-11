@@ -1,8 +1,28 @@
-[gd_scene load_steps=2 format=3 uid="uid://0bt58qj8x210"]
+[gd_scene load_steps=4 format=3 uid="uid://0bt58qj8x210"]
 
 [ext_resource type="Texture2D" uid="uid://hpbrt0dm368l" path="res://Board/Pieces/WhitePiece/SpriteWhitePiece.png" id="1_yj3yw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jy1ym"]
+radius = 5.0
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ionv0"]
+b = Vector2(9, -9)
 
 [node name="WhitePiece" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_yj3yw")
+
+[node name="Selector" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Selector"]
+shape = SubResource("CircleShape2D_jy1ym")
+
+[node name="Scanner" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Scanner"]
+shape = SubResource("SegmentShape2D_ionv0")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Scanner"]
+rotation = -1.57079
+shape = SubResource("SegmentShape2D_ionv0")
